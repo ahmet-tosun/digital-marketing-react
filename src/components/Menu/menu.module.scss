@@ -1,0 +1,15 @@
+@import '../../styles/theme.scss';
+
+.menu {
+  display: flex;
+  align-items: center;
+
+  &-link {
+    margin-right: 21px;
+    text-decoration: none;
+    color: #fff;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-bold;
+    font-family: $font-family;
+  }
+}
